@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="feed.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+    <title>Misch's Meal Finder Feedback</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="mainWrapper">
+        <h1>Misch's Meal Finder Feedback</h1>
+        <a class="feed-btn" href="index.html">Feedback</a>
+        <br><br>
+        <form>
+            <div class="form-group">
+              <label>Enter username</label>
+              <input id="fileName" type="text" class="form-control">
+            </div>
+    
+            <div class="form-group">
+              <label>Enter comment/feedback</label>
+              <textarea id="fileContents" class="form-control" rows="5"></textarea>
+    
+            </div>
+          </form>
+          <button id="btnCreate" class="btn btn-default">Send/Edit Comment</button>
+          <button id="btnRead" class="btn btn-default">Read Comment</button>
+          <button id="btnDelete" class="btn btn-default">Delete Comment</button>
+    
+        </div>
+      
+    </div>
+
+    <script src="feed.js"></script>
+  </body>
+</html>
